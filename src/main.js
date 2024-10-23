@@ -9,3 +9,6 @@
 
 // lab4
 // require("./lab4.js");
+
+// lab5
+require("./lab5.js");
