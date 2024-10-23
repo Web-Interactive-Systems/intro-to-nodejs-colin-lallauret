@@ -9,9 +9,26 @@
 
 const fs = require("fs");
 
-const filename = process.argv; // Todo;
-const text = process.argv; // Todo;
+// argv [0] -> node
+// argv [1] -> "src/lab4.js"
+// argv [2] -> filename
+// argv [3] -> content
+
+const filename = process.argv[2];
+const content = process.argv[3];
+
+console.log("argv", process.argv);
 
 // Todo writeFile
+fs.writeFile(filename, content, (err) => {
+  if (err) {
+    console.error("err", err);
+  } else {
+    console.log("\n\n *** file saved!!");
+  }
+});
 
 // Todo readFile
+
+// Execute !
+// yarn lab4 src\utils\content.txt "testyutsutgyu"
