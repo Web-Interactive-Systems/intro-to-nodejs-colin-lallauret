@@ -11,4 +11,7 @@
 // require("./lab4.js");
 
 // lab5
-require("./lab5.js");
+// require("./lab5.js");
+
+// lab6
+require("./lab6.js");
