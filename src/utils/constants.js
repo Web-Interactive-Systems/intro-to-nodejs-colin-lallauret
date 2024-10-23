@@ -8,7 +8,9 @@ const baz = "baz";
 
 /**
  Todo
- Using two ways of export (node default export): 
+ Using two ways of export (not default export): 
  - create an export of foo and bar
  - create an export of baz
  */
+module.exports = { foo, bar };
+module.exports.baz = baz;

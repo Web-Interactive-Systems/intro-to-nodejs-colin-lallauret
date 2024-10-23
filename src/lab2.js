@@ -4,6 +4,9 @@
  ./utils/constants.js and ./utils/helpers.js
  */
 
+const hello = require("./utils/helpers");
+const { foo, bar, baz } = require("./utils/constants");
+
 hello(foo);
 hello(bar);
 hello(baz);

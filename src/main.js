@@ -1,5 +1,5 @@
 // lab1
-require("./lab1.js");
+// require("./lab1.js");
 
 // lab2
-// require("./lab2.js");
+require("./lab2.js");
